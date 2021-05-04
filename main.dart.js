@@ -19544,7 +19544,7 @@ hd:function hd(a){this.b=a},
 a0s:function(a,b){var s=0,r=P.a4(t.yq),q
 var $async$a0s=P.X(function(c,d){if(c===1)return P.a1(d,r)
 while(true)switch(s){case 0:s=3
-return P.a6(G.amQ(P.afD("http","rest-api-babatan.herokuapp.com","administrator/login",P.aC(["username",a,"password",b],t.bD,t.z))),$async$a0s)
+return P.a6(G.amQ(P.afD("https","rest-api-babatan.herokuapp.com","administrator/login",P.aC(["username",a,"password",b],t.bD,t.z))),$async$a0s)
 case 3:if(d.b===200){q=!0
 s=1
 break}else{q=!1
@@ -19554,7 +19554,7 @@ return P.a3($async$a0s,r)},
 Hi:function(){var s=0,r=P.a4(t.z),q,p
 var $async$Hi=P.X(function(a,b){if(a===1)return P.a1(b,r)
 while(true)switch(s){case 0:s=3
-return P.a6(G.amQ(P.afD("http","rest-api-babatan.herokuapp.com","poliklinik",null)),$async$Hi)
+return P.a6(G.amQ(P.afD("https","rest-api-babatan.herokuapp.com","poliklinik",null)),$async$Hi)
 case 3:p=b
 if(p.b===200){q=C.aZ.cW(0,B.azJ(U.axA(p.e).c.a.h(0,"charset")).cW(0,p.x))
 s=1
@@ -19565,7 +19565,7 @@ return P.a3($async$Hi,r)},
 a0t:function(a){var s=0,r=P.a4(t.yq),q
 var $async$a0t=P.X(function(b,c){if(b===1)return P.a1(c,r)
 while(true)switch(s){case 0:s=3
-return P.a6(G.aAr(P.afD("http","rest-api-babatan.herokuapp.com","poliklinik/ubah",null),a.j3()),$async$a0t)
+return P.a6(G.aAr(P.afD("https","rest-api-babatan.herokuapp.com","poliklinik/ubah",null),a.j3()),$async$a0t)
 case 3:if(c.b===200){q=!0
 s=1
 break}else{q=!1
